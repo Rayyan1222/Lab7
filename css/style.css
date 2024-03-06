@@ -1,38 +1,36 @@
 body {
-    background-color: #564fa4;
-    font-family: Trebuchet MS, sans-serif;
-    color: white; 
+  background-color: #564fa4;
+  font-family: Trebuchet MS, sans-serif;
+  color: white; 
 }
 h1 {
-    text-align: center;
+  text-align: center;
 }
 table {
-    width: 400px;
+  width: 400px;
 }
 th {
-    text-align: left;
+  text-align: left;
 }
 table, th, td {
-    border: 5px solid #000000; /* Thicker border */
+  border: 5px solid #000000;
 }
 th, td {
-    padding: 10px; /* Increased padding */
+  padding: 10px; 
 }
-
-/* Background colors for table headers and data cells */
 th:nth-child(1), td:nth-child(1){
-    background-color: #686565; /* Grey */
+  background-color: #686565; 
 }
 th:nth-child(2), td:nth-child(2){
-    background-color: #b17f7f; /* Light Red */
+  background-color: #b17f7f; 
 }
 th:nth-child(3), td:nth-child(3){
-    background-color: #4f9da4; /* Light Green */
+  background-color: #4f9da4; 
 }
 th:nth-child(4), td:nth-child(4){
-    background-color: #318ce7; /* Light Blue */
+  background-color: #318ce7; 
 }
 th:nth-child(5), td:nth-child(5){
-    background-color: #ed9121; /* Light Brown */
+  background-color: #ed9121; 
 }
 
